@@ -1,8 +1,8 @@
 # Ziffy Test Express
 
 ## Prerequisite-
-# Install postgres on your local system and setup password for postgres user and edit .env accordingly
-# Create the folder to save files and edit absolute path for BLOG_DIR in .env file
+### Install postgres on your local system and setup password for postgres user and edit .env accordingly
+### Create the folder to save files and edit absolute path for BLOG_DIR in .env file
 
 ## After cloning the application, run following commands to setup -
 
