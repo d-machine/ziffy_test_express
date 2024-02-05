@@ -63,6 +63,7 @@ const createBlog = (request, response) => {
                 response.status(500).send(writeErr)
                 return
             }
+            const created_at = new Date()
             pool.query(
                 'INSERT INTO blog (title, filepath, top_2_lines, created_at) VALUES ($1, $2, $3, $4)',
                 [title, filepath, top_2_lines, created_at],

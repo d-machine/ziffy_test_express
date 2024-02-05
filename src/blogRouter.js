@@ -10,8 +10,8 @@ router.get('/', function(req, res) {
 })
 
 router.get('/blogs', blogController.getBlogs)
-router.get('/blogs/:id', blogController.getBlogById)
 router.post('/blogs', blogController.createBlog)
+router.get('/blogs/:id', blogController.getBlogById)
 
 // export router
 module.exports = router;
